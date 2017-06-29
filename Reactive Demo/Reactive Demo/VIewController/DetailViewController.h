@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DetailViewController.h
 //  Reactive Demo
 //
 //  Created by liushaohua on 2016/10/20.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+
+@property(nonatomic, strong)RACSubject *delagateSignal;
 
 
 @end
-
