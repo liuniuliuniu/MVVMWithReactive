@@ -8,40 +8,91 @@
 
 /* Begin PBXBuildFile section */
 		8C84EB321E19F60E00A7E5A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C84EB2F1E19F60E00A7E5A4 /* ViewController.m */; };
-		8CEE5E3A1E1777CF007B2817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE5E391E1777CF007B2817 /* main.m */; };
-		8CEE5E3D1E1777CF007B2817 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE5E3C1E1777CF007B2817 /* AppDelegate.m */; };
 		8CEE5E431E1777D0007B2817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE5E411E1777D0007B2817 /* Main.storyboard */; };
 		8CEE5E451E1777D0007B2817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE5E441E1777D0007B2817 /* Assets.xcassets */; };
 		8CEE5E481E1777D0007B2817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE5E461E1777D0007B2817 /* LaunchScreen.storyboard */; };
 		9CBD66F33565EFFA464EE1C8 /* libPods-Reactive Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 160F4716E23D242FF44B1BF0 /* libPods-Reactive Demo.a */; };
+		D2108FC31F0785F7006097A0 /* LLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2108FC21F0785F7006097A0 /* LLLoginViewController.m */; };
+		D211821D1F0C804F0029A7E8 /* LLBlogView.m in Sources */ = {isa = PBXBuildFile; fileRef = D211821C1F0C804F0029A7E8 /* LLBlogView.m */; };
+		D21182211F0CA1AE0029A7E8 /* LLBlogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D211821F1F0CA1AE0029A7E8 /* LLBlogCell.m */; };
+		D21182221F0CA1AE0029A7E8 /* LLBlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D21182201F0CA1AE0029A7E8 /* LLBlogCell.xib */; };
+		D21182251F0CA3450029A7E8 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = D21182241F0CA3450029A7E8 /* UIResponder+Router.m */; };
+		D21182281F0CB7F80029A7E8 /* LLUserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21182271F0CB7F80029A7E8 /* LLUserInfoController.m */; };
+		D211822B1F0CBDE70029A7E8 /* LLMVVMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D211822A1F0CBDE70029A7E8 /* LLMVVMUserViewController.m */; };
+		D2822F8B1F0BE33600410CA7 /* LLBlogVIewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2822F8A1F0BE33600410CA7 /* LLBlogVIewModel.m */; };
 		D2A198F81F049AD4007FB657 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A198F71F049AD4007FB657 /* DetailViewController.m */; };
 		D2A198FC1F04A9AB007FB657 /* PeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A198FB1F04A9AB007FB657 /* PeopleModel.m */; };
-		D2A198FE1F04A9D4007FB657 /* PeopleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2A198FD1F04A9D4007FB657 /* PeopleList.plist */; };
 		D2A199021F04F4AB007FB657 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A199011F04F4AB007FB657 /* CustomView.m */; };
+		D2BB3C811F0B7BC7008234C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C7C1F0B7BC7008234C0 /* AppDelegate.m */; };
+		D2BB3C831F0B7BC7008234C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C7E1F0B7BC7008234C0 /* main.m */; };
+		D2BB3C841F0B7BC7008234C0 /* PeopleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2BB3C7F1F0B7BC7008234C0 /* PeopleList.plist */; };
+		D2BB3C861F0B7C41008234C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2BB3C851F0B7C41008234C0 /* Info.plist */; };
+		D2BB3C901F0B7E47008234C0 /* LLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C8F1F0B7E47008234C0 /* LLUser.m */; };
+		D2BB3C931F0B7E60008234C0 /* LLBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C921F0B7E60008234C0 /* LLBlog.m */; };
+		D2BB3C961F0B7F18008234C0 /* LLUserAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C951F0B7F18008234C0 /* LLUserAPIManager.m */; };
+		D2BB3C9E1F0B8539008234C0 /* UIView+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C991F0B8539008234C0 /* UIView+Alert.m */; };
+		D2BB3C9F1F0B8539008234C0 /* UIView+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C9B1F0B8539008234C0 /* UIView+Controller.m */; };
+		D2BB3CA01F0B8539008234C0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3C9D1F0B8539008234C0 /* UIView+Extension.m */; };
+		D2BB3CA31F0B8629008234C0 /* LLUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3CA21F0B8629008234C0 /* LLUserInfoView.m */; };
+		D2BB3CA61F0B891C008234C0 /* LLBlogCellVIewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3CA51F0B891C008234C0 /* LLBlogCellVIewModel.m */; };
+		D2BB3CA91F0B99ED008234C0 /* LLUserInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BB3CA81F0B99ED008234C0 /* LLUserInfoViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		034A2E71DD1037260F8AB357 /* Pods-Reactive Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive Demo/Pods-Reactive Demo.release.xcconfig"; sourceTree = "<group>"; };
 		160F4716E23D242FF44B1BF0 /* libPods-Reactive Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactive Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58517EEB7B4A9857949C6A18 /* Pods-Reactive Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive Demo/Pods-Reactive Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		8C84EB271E19586800A7E5A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8C84EB2E1E19F60E00A7E5A4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8C84EB2F1E19F60E00A7E5A4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CEE5E351E1777CF007B2817 /* Reactive Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reactive Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CEE5E391E1777CF007B2817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8CEE5E3B1E1777CF007B2817 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8CEE5E3C1E1777CF007B2817 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8CEE5E421E1777D0007B2817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CEE5E441E1777D0007B2817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEE5E471E1777D0007B2817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CEE5E491E1777D0007B2817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2108FC11F0785F7006097A0 /* LLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLoginViewController.h; sourceTree = "<group>"; };
+		D2108FC21F0785F7006097A0 /* LLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLoginViewController.m; sourceTree = "<group>"; };
+		D211821B1F0C804F0029A7E8 /* LLBlogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBlogView.h; sourceTree = "<group>"; };
+		D211821C1F0C804F0029A7E8 /* LLBlogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBlogView.m; sourceTree = "<group>"; };
+		D211821E1F0CA1AE0029A7E8 /* LLBlogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBlogCell.h; sourceTree = "<group>"; };
+		D211821F1F0CA1AE0029A7E8 /* LLBlogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBlogCell.m; sourceTree = "<group>"; };
+		D21182201F0CA1AE0029A7E8 /* LLBlogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLBlogCell.xib; sourceTree = "<group>"; };
+		D21182231F0CA3450029A7E8 /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		D21182241F0CA3450029A7E8 /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		D21182261F0CB7F80029A7E8 /* LLUserInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserInfoController.h; sourceTree = "<group>"; };
+		D21182271F0CB7F80029A7E8 /* LLUserInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserInfoController.m; sourceTree = "<group>"; };
+		D21182291F0CBDE70029A7E8 /* LLMVVMUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMVVMUserViewController.h; sourceTree = "<group>"; };
+		D211822A1F0CBDE70029A7E8 /* LLMVVMUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMVVMUserViewController.m; sourceTree = "<group>"; };
+		D2822F891F0BE33600410CA7 /* LLBlogVIewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBlogVIewModel.h; sourceTree = "<group>"; };
+		D2822F8A1F0BE33600410CA7 /* LLBlogVIewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBlogVIewModel.m; sourceTree = "<group>"; };
 		D2A198F61F049AD4007FB657 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D2A198F71F049AD4007FB657 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		D2A198FA1F04A9AB007FB657 /* PeopleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleModel.h; sourceTree = "<group>"; };
 		D2A198FB1F04A9AB007FB657 /* PeopleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleModel.m; sourceTree = "<group>"; };
-		D2A198FD1F04A9D4007FB657 /* PeopleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PeopleList.plist; sourceTree = "<group>"; };
 		D2A199001F04F4AB007FB657 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		D2A199011F04F4AB007FB657 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		D2BB3C7B1F0B7BC7008234C0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2BB3C7C1F0B7BC7008234C0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2BB3C7E1F0B7BC7008234C0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2BB3C7F1F0B7BC7008234C0 /* PeopleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PeopleList.plist; sourceTree = "<group>"; };
+		D2BB3C801F0B7BC7008234C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D2BB3C851F0B7C41008234C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BB3C8E1F0B7E47008234C0 /* LLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUser.h; sourceTree = "<group>"; };
+		D2BB3C8F1F0B7E47008234C0 /* LLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUser.m; sourceTree = "<group>"; };
+		D2BB3C911F0B7E60008234C0 /* LLBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBlog.h; sourceTree = "<group>"; };
+		D2BB3C921F0B7E60008234C0 /* LLBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBlog.m; sourceTree = "<group>"; };
+		D2BB3C941F0B7F18008234C0 /* LLUserAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserAPIManager.h; sourceTree = "<group>"; };
+		D2BB3C951F0B7F18008234C0 /* LLUserAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserAPIManager.m; sourceTree = "<group>"; };
+		D2BB3C981F0B8539008234C0 /* UIView+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Alert.h"; sourceTree = "<group>"; };
+		D2BB3C991F0B8539008234C0 /* UIView+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Alert.m"; sourceTree = "<group>"; };
+		D2BB3C9A1F0B8539008234C0 /* UIView+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Controller.h"; sourceTree = "<group>"; };
+		D2BB3C9B1F0B8539008234C0 /* UIView+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Controller.m"; sourceTree = "<group>"; };
+		D2BB3C9C1F0B8539008234C0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D2BB3C9D1F0B8539008234C0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		D2BB3CA11F0B8629008234C0 /* LLUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserInfoView.h; sourceTree = "<group>"; };
+		D2BB3CA21F0B8629008234C0 /* LLUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserInfoView.m; sourceTree = "<group>"; };
+		D2BB3CA41F0B891C008234C0 /* LLBlogCellVIewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBlogCellVIewModel.h; sourceTree = "<group>"; };
+		D2BB3CA51F0B891C008234C0 /* LLBlogCellVIewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBlogCellVIewModel.m; sourceTree = "<group>"; };
+		D2BB3CA71F0B99ED008234C0 /* LLUserInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUserInfoViewModel.h; sourceTree = "<group>"; };
+		D2BB3CA81F0B99ED008234C0 /* LLUserInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUserInfoViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +131,8 @@
 				8C84EB2F1E19F60E00A7E5A4 /* ViewController.m */,
 				D2A198F61F049AD4007FB657 /* DetailViewController.h */,
 				D2A198F71F049AD4007FB657 /* DetailViewController.m */,
+				D2108FC11F0785F7006097A0 /* LLLoginViewController.h */,
+				D2108FC21F0785F7006097A0 /* LLLoginViewController.m */,
 			);
 			path = VIewController;
 			sourceTree = "<group>";
@@ -105,17 +158,16 @@
 		8CEE5E371E1777CF007B2817 /* Reactive Demo */ = {
 			isa = PBXGroup;
 			children = (
-				8CEE5E3B1E1777CF007B2817 /* AppDelegate.h */,
-				8CEE5E3C1E1777CF007B2817 /* AppDelegate.m */,
+				D2BB3C971F0B8532008234C0 /* Utils */,
 				8C84EB2B1E19F60E00A7E5A4 /* VIewController */,
 				D2A198F91F04A962007FB657 /* VIewModel */,
 				D2A198FF1F04F48C007FB657 /* View */,
+				D2BB3C871F0B7C71008234C0 /* MVVMDemo */,
 				8CEE5E411E1777D0007B2817 /* Main.storyboard */,
+				D2BB3C851F0B7C41008234C0 /* Info.plist */,
 				8CEE5E441E1777D0007B2817 /* Assets.xcassets */,
 				8CEE5E461E1777D0007B2817 /* LaunchScreen.storyboard */,
-				8CEE5E491E1777D0007B2817 /* Info.plist */,
-				D2A198FD1F04A9D4007FB657 /* PeopleList.plist */,
-				8C84EB271E19586800A7E5A4 /* PrefixHeader.pch */,
+				D2BB3C7A1F0B7BC7008234C0 /* System */,
 				8CEE5E381E1777CF007B2817 /* Supporting Files */,
 			);
 			path = "Reactive Demo";
@@ -124,7 +176,6 @@
 		8CEE5E381E1777CF007B2817 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8CEE5E391E1777CF007B2817 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,6 +197,111 @@
 				D2A199011F04F4AB007FB657 /* CustomView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D2BB3C7A1F0B7BC7008234C0 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3C7B1F0B7BC7008234C0 /* AppDelegate.h */,
+				D2BB3C7C1F0B7BC7008234C0 /* AppDelegate.m */,
+				D2BB3C7E1F0B7BC7008234C0 /* main.m */,
+				D2BB3C7F1F0B7BC7008234C0 /* PeopleList.plist */,
+				D2BB3C801F0B7BC7008234C0 /* PrefixHeader.pch */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		D2BB3C871F0B7C71008234C0 /* MVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3C881F0B7DEA008234C0 /* APIManager */,
+				D2BB3C8B1F0B7DEA008234C0 /* Scene */,
+				D2BB3C891F0B7DEA008234C0 /* C */,
+				D2BB3C8A1F0B7DEA008234C0 /* M */,
+				D2BB3C8C1F0B7DEA008234C0 /* V */,
+				D2BB3C8D1F0B7DEA008234C0 /* VM */,
+			);
+			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		D2BB3C881F0B7DEA008234C0 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3C941F0B7F18008234C0 /* LLUserAPIManager.h */,
+				D2BB3C951F0B7F18008234C0 /* LLUserAPIManager.m */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D2BB3C891F0B7DEA008234C0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D21182261F0CB7F80029A7E8 /* LLUserInfoController.h */,
+				D21182271F0CB7F80029A7E8 /* LLUserInfoController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		D2BB3C8A1F0B7DEA008234C0 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3C8E1F0B7E47008234C0 /* LLUser.h */,
+				D2BB3C8F1F0B7E47008234C0 /* LLUser.m */,
+				D2BB3C911F0B7E60008234C0 /* LLBlog.h */,
+				D2BB3C921F0B7E60008234C0 /* LLBlog.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		D2BB3C8B1F0B7DEA008234C0 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D21182291F0CBDE70029A7E8 /* LLMVVMUserViewController.h */,
+				D211822A1F0CBDE70029A7E8 /* LLMVVMUserViewController.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D2BB3C8C1F0B7DEA008234C0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				D211821B1F0C804F0029A7E8 /* LLBlogView.h */,
+				D211821C1F0C804F0029A7E8 /* LLBlogView.m */,
+				D211821E1F0CA1AE0029A7E8 /* LLBlogCell.h */,
+				D211821F1F0CA1AE0029A7E8 /* LLBlogCell.m */,
+				D21182201F0CA1AE0029A7E8 /* LLBlogCell.xib */,
+				D2BB3CA11F0B8629008234C0 /* LLUserInfoView.h */,
+				D2BB3CA21F0B8629008234C0 /* LLUserInfoView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		D2BB3C8D1F0B7DEA008234C0 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				D2822F891F0BE33600410CA7 /* LLBlogVIewModel.h */,
+				D2822F8A1F0BE33600410CA7 /* LLBlogVIewModel.m */,
+				D2BB3CA41F0B891C008234C0 /* LLBlogCellVIewModel.h */,
+				D2BB3CA51F0B891C008234C0 /* LLBlogCellVIewModel.m */,
+				D2BB3CA71F0B99ED008234C0 /* LLUserInfoViewModel.h */,
+				D2BB3CA81F0B99ED008234C0 /* LLUserInfoViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		D2BB3C971F0B8532008234C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D2BB3C981F0B8539008234C0 /* UIView+Alert.h */,
+				D2BB3C991F0B8539008234C0 /* UIView+Alert.m */,
+				D2BB3C9A1F0B8539008234C0 /* UIView+Controller.h */,
+				D2BB3C9B1F0B8539008234C0 /* UIView+Controller.m */,
+				D2BB3C9C1F0B8539008234C0 /* UIView+Extension.h */,
+				D2BB3C9D1F0B8539008234C0 /* UIView+Extension.m */,
+				D21182231F0CA3450029A7E8 /* UIResponder+Router.h */,
+				D21182241F0CA3450029A7E8 /* UIResponder+Router.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +333,7 @@
 		8CEE5E2D1E1777CF007B2817 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = liushaohua;
 				TargetAttributes = {
@@ -209,10 +366,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BB3C841F0B7BC7008234C0 /* PeopleList.plist in Resources */,
 				8CEE5E481E1777D0007B2817 /* LaunchScreen.storyboard in Resources */,
 				8CEE5E451E1777D0007B2817 /* Assets.xcassets in Resources */,
+				D2BB3C861F0B7C41008234C0 /* Info.plist in Resources */,
 				8CEE5E431E1777D0007B2817 /* Main.storyboard in Resources */,
-				D2A198FE1F04A9D4007FB657 /* PeopleList.plist in Resources */,
+				D21182221F0CA1AE0029A7E8 /* LLBlogCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FEBB8520B6BCFBDD09BFA993 /* [CP] Copy Pods Resources */ = {
@@ -272,11 +431,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A198FC1F04A9AB007FB657 /* PeopleModel.m in Sources */,
-				8CEE5E3D1E1777CF007B2817 /* AppDelegate.m in Sources */,
-				8CEE5E3A1E1777CF007B2817 /* main.m in Sources */,
+				D2108FC31F0785F7006097A0 /* LLLoginViewController.m in Sources */,
+				D2BB3CA01F0B8539008234C0 /* UIView+Extension.m in Sources */,
+				D2BB3C901F0B7E47008234C0 /* LLUser.m in Sources */,
+				D2BB3C9E1F0B8539008234C0 /* UIView+Alert.m in Sources */,
 				8C84EB321E19F60E00A7E5A4 /* ViewController.m in Sources */,
+				D211821D1F0C804F0029A7E8 /* LLBlogView.m in Sources */,
+				D2BB3C931F0B7E60008234C0 /* LLBlog.m in Sources */,
 				D2A198F81F049AD4007FB657 /* DetailViewController.m in Sources */,
 				D2A199021F04F4AB007FB657 /* CustomView.m in Sources */,
+				D2BB3C831F0B7BC7008234C0 /* main.m in Sources */,
+				D21182251F0CA3450029A7E8 /* UIResponder+Router.m in Sources */,
+				D2BB3C811F0B7BC7008234C0 /* AppDelegate.m in Sources */,
+				D2BB3CA61F0B891C008234C0 /* LLBlogCellVIewModel.m in Sources */,
+				D2822F8B1F0BE33600410CA7 /* LLBlogVIewModel.m in Sources */,
+				D2BB3CA31F0B8629008234C0 /* LLUserInfoView.m in Sources */,
+				D21182211F0CA1AE0029A7E8 /* LLBlogCell.m in Sources */,
+				D2BB3C9F1F0B8539008234C0 /* UIView+Controller.m in Sources */,
+				D2BB3C961F0B7F18008234C0 /* LLUserAPIManager.m in Sources */,
+				D211822B1F0CBDE70029A7E8 /* LLMVVMUserViewController.m in Sources */,
+				D21182281F0CB7F80029A7E8 /* LLUserInfoController.m in Sources */,
+				D2BB3CA91F0B99ED008234C0 /* LLUserInfoViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +570,7 @@
 			baseConfigurationReference = 58517EEB7B4A9857949C6A18 /* Pods-Reactive Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Reactive Demo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/dayingxiangkeji/Desktop/MVVMWithReactive/Reactive Demo/Reactive Demo/System/PrefixHeader.pch";
 				INFOPLIST_FILE = "Reactive Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liushaohua3.Reactive-Demo";
@@ -408,7 +583,7 @@
 			baseConfigurationReference = 034A2E71DD1037260F8AB357 /* Pods-Reactive Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Reactive Demo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/dayingxiangkeji/Desktop/MVVMWithReactive/Reactive Demo/Reactive Demo/System/PrefixHeader.pch";
 				INFOPLIST_FILE = "Reactive Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.liushaohua3.Reactive-Demo";

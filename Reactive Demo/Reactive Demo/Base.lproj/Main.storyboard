@@ -34,6 +34,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="SignalButton"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ2-7k-Eik">
+                                <rect key="frame" x="142" y="402" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="pushLoginVC"/>
+                                <connections>
+                                    <segue destination="mBV-6Z-gs4" kind="show" id="kbD-h5-Lrr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8be-8x-ZvW">
+                                <rect key="frame" x="127" y="463" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="pushMVVMDemo"/>
+                                <connections>
+                                    <action selector="pushMVVMDemo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C83-vF-edV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.050919674605699017" green="1" blue="0.036533151343851045" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -45,6 +61,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="684" y="24.7376311844078"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="Kbe-EE-Zuk">
+            <objects>
+                <viewController id="mBV-6Z-gs4" customClass="LLLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cK4-vO-pgE"/>
+                        <viewControllerLayoutGuide type="bottom" id="CaE-MO-V2s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z02-2W-TTP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="账号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yDt-QO-mAP">
+                                <rect key="frame" x="119" y="188" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y6l-CT-YWa">
+                                <rect key="frame" x="119" y="258" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ww5-fo-QQX">
+                                <rect key="frame" x="165" y="336" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="登陆"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49373413069714367" green="1" blue="0.068316946226923414" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="acountTextFiled" destination="yDt-QO-mAP" id="EvN-5Q-eHE"/>
+                        <outlet property="loginBtn" destination="ww5-fo-QQX" id="Bua-5K-EzY"/>
+                        <outlet property="psdTextFiled" destination="y6l-CT-YWa" id="xlx-P4-zYR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PIu-If-obV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1871" y="493"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="paG-i5-ee9">
@@ -90,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cYT-Qa-lAl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1392.8" y="24.7376311844078"/>
+            <point key="canvasLocation" x="1791" y="-74"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gJl-I9-abg">

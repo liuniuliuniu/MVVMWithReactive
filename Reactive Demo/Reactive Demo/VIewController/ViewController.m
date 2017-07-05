@@ -10,7 +10,7 @@
 #import "ViewController.h"
 #import "DetailViewController.h"
 #import "PeopleModel.h"
-
+#import "LLMVVMUserViewController.h"
 #import "CustomView.h"
 
 
@@ -22,6 +22,16 @@
 @end
 
 @implementation ViewController
+
+
+- (IBAction)pushMVVMDemo:(id)sender {
+    
+    
+    LLMVVMUserViewController *MVVMVC = [LLMVVMUserViewController initWithUserID:123];
+    
+    [self.navigationController pushViewController:MVVMVC animated:YES];
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -59,6 +69,7 @@
     [self tuple];
 
 }
+
 
 
 - (void)tuple{
@@ -145,6 +156,7 @@
     [self.view addSubview:V];
     
     V.delegate = self;
+    
     
     [[V rac_signalForSelector:@selector(TapClick)] subscribeNext:^(id x) {
         NSLog(@"点击了视图中的按钮%@",x);

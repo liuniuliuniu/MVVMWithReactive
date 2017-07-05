@@ -4,25 +4,65 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Reactive Demo.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Toast.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C61E742C8D6214BA32EFE77EB955B7A5</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EFFBFB92989119995F8FD055CFAC465E</key>
+		<key>175B076ED45EB1A3E40F58BA14036467</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9042EDA08A9230BE8C1898186F8856ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0E0657CD10A293953DF61D693DFC7EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8B9FEEDE29AC727CBF8DE109ADE8F45</key>
 		<dict>
 			<key>primary</key>
 			<true/>
